@@ -21,6 +21,22 @@ public class Main {
         System.out.println("cat = " + cat);
         paper = paper - 7639;
         System.out.println("paper = " + paper);
+        //Задача 4. Объявление и инициализация переменных. Увеличение и деление.
+        var friend = 19;
+        System.out.println("friend = " + friend);
+        friend = friend + 2;
+        System.out.println("friend = " + friend);
+        friend = friend / 7;
+        System.out.println("friend = " + friend);
+        //Задача 5. Объявление и инициализация переменных. Умножение, деление, сложение.
+        var frog = 3.5;
+        System.out.println("frog = " + frog);
+        frog = frog * 10;
+        System.out.println("frog = " + frog);
+        frog = frog / 3.5;
+        System.out.println("frog = " + frog);
+        frog = frog + 4;
+        System.out.println("frog = " + frog);
 
     }
 }
