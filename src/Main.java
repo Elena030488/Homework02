@@ -37,6 +37,29 @@ public class Main {
         System.out.println("frog = " + frog);
         frog = frog + 4;
         System.out.println("frog = " + frog);
+        //Задача 6. Боксеры.
+        var boxer1Weight = 78.2;
+        var boxer2Weight = 82.7;
+        System.out.println("Вес первого боксера = " + boxer1Weight + " кг");
+        System.out.println("Вес второго боксера = " + boxer2Weight + " кг");
+        var totalBoxersWeight = boxer1Weight + boxer2Weight;
+        System.out.println("Общий вес бойцов равен = " + totalBoxersWeight + " кг");
+        var weightDiff = boxer2Weight - boxer1Weight;
+        System.out.println("Разница в весе бойцов составляет = " + weightDiff + " кг");
+        //Задача 7. Способы вычисления разницы в весе.
+        var weightDiffV1 = boxer2Weight - boxer1Weight;
+        System.out.println("Разница в весе бойцов составляет = " + weightDiffV1 + " кг (вычислено вычитанием)");
+        var weightDiffV2 = boxer2Weight % boxer1Weight;
+        System.out.println("Разница в весе бойцов составляет = " + weightDiffV2 + " кг (вычислено остатком от деления)");
+        //Задача 8.
+        var totalTime = 640;
+        var oneWorkerTime = 8;
+        var totalWorkers = totalTime / oneWorkerTime;
+        System.out.println("Если компании нужно отработать 640 часов с выработкой на одного сотрудника 8 ч, то");
+        System.out.println("Всего работников в компании = " + totalWorkers + " человек");
+        var totalWorkersMore = totalWorkers + 94;
+        var totalTimeMore = totalWorkersMore * oneWorkerTime;
+        System.out.println("Если в компании работает = " + totalWorkersMore + " человек, то всего " + totalTimeMore + " часов может быть поделено между сотрудниками");
 
     }
 }
